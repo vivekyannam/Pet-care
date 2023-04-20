@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.initial{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/c/web_dev/WAAD/img_waad/background5.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "Teko", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: white;
+    background-color: grey;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 61px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: whitesmoke;
+    padding-top: 10vh;
+    padding: 10vh;
+}
+.matter{
+    padding: 10vh;
+    text-align: center;
+    color: whitesmoke;
+}
+.matter1{
+    font-family: "Rampart One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 61px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: whitesmoke;
+}
+.one{
+    color: black;
+    
+}
+
+.matter3{
+    padding: 10vh;
+    display: flex;
+    gap: 2rem;
+}
+.first{
+    text-align: center;
+    background-color: rgb(151, 65, 31);
+    justify-content: center;
+    border: 2px solid black;
+    padding: 2vh;
+    border-radius: 3vh;
+    background-image: url(/c/web_dev/WAAD/img_waad/button.png); 
+
+}
+.first:hover {
+    background-color: brown;
+    transform: scale(1.2);
+}
+
+.first a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
